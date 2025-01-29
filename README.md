@@ -1,1 +1,2 @@
 # High-Frequency_GDP_Forecasting
+Este repositorio contiene modelos de alta frecuencia diseñados para predecir mensualmente el PIB real. Utiliza datos económicos de alta frecuencia, técnicas de nowcasting y modelos de machine learning para ofrecer estimaciones actualizadas antes de la publicación oficial del PIB.
