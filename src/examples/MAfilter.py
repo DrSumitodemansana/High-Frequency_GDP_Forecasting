@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
-# matplotlib.use('TkAgg')
+matplotlib.use('module://backend_interagg')
 
 
 def MAfilter(data, window_size):
@@ -23,6 +23,7 @@ def MAfilter(data, window_size):
 
 
 if __name__ == "__main__":
+    np.random.seed(42)
     time = np.linspace(0, 10, 1000)
     data = np.sin(time) + np.random.normal(0, 0.1, 1000)
     filtered_data = MAfilter(data, 10)
